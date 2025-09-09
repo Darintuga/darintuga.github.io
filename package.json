@@ -10,7 +10,7 @@
   "dependencies": {
     "@fontsource/newsreader": "^4.5.10",
     "lucide-svelte": "^0.259.0",
-    "svelte": "^3.58.0"
+    "svelte": "^5.38.8"
   },
   "devDependencies": {
     "@rollup/plugin-yaml": "^4.0.1",
@@ -19,8 +19,8 @@
     "@types/js-yaml": "^4.0.5",
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
-    "svelte-check": "3.2.0",
-    "svelte-preprocess": "^4.10.0",
+    "svelte-check": "3.8.6",
+    "svelte-preprocess": "^6.0.3",
     "tailwindcss": "^3.4.17",
     "vite": "^4.3.9"
   }
