@@ -1,0 +1,81 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "imports": [
+      "_internal.js"
+    ],
+    "isEntry": true,
+    "src": ".svelte-kit/generated/server/internal.js"
+  },
+  "_index.js": {
+    "file": "chunks/index.js"
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "node_modules/@fontsource/newsreader/files/newsreader-all-400-italic.woff": {
+    "file": "_app/immutable/assets/newsreader-all-400-italic.b234bc8e.woff",
+    "src": "node_modules/@fontsource/newsreader/files/newsreader-all-400-italic.woff"
+  },
+  "node_modules/@fontsource/newsreader/files/newsreader-latin-400-italic.woff2": {
+    "file": "_app/immutable/assets/newsreader-latin-400-italic.c935023f.woff2",
+    "src": "node_modules/@fontsource/newsreader/files/newsreader-latin-400-italic.woff2"
+  },
+  "node_modules/@fontsource/newsreader/files/newsreader-latin-ext-400-italic.woff2": {
+    "file": "_app/immutable/assets/newsreader-latin-ext-400-italic.5bf368d2.woff2",
+    "src": "node_modules/@fontsource/newsreader/files/newsreader-latin-ext-400-italic.woff2"
+  },
+  "node_modules/@fontsource/newsreader/files/newsreader-vietnamese-400-italic.woff2": {
+    "file": "_app/immutable/assets/newsreader-vietnamese-400-italic.15c2d816.woff2",
+    "src": "node_modules/@fontsource/newsreader/files/newsreader-vietnamese-400-italic.woff2"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "imports": [
+      "_internal.js",
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
+  },
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/_layout.4a538850.css",
+    "src": "src/routes/+layout.css"
+  },
+  "src/routes/+layout.svelte": {
+    "assets": [
+      "_app/immutable/assets/newsreader-vietnamese-400-italic.15c2d816.woff2",
+      "_app/immutable/assets/newsreader-all-400-italic.b234bc8e.woff",
+      "_app/immutable/assets/newsreader-latin-ext-400-italic.5bf368d2.woff2",
+      "_app/immutable/assets/newsreader-latin-400-italic.c935023f.woff2"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.4a538850.css"
+    ],
+    "file": "entries/pages/_layout.svelte.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+layout.svelte"
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+page.svelte"
+  }
+}

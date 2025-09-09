@@ -28,7 +28,7 @@
 <p class="layout-lg mt-2">The reading group will be led by <a class="link" href="https://granha.github.io/">Prof. Fernando Granha Jeronimo</a> 
     with help from student organizers Will, Andrei, and Rhea.</p>
 
-<p class="layout-lg mt-3 mb-6">(Tentatively) We will meet in SC 3102 on Thursdays from 5-8PM, starting on September 18th.</p>
+<p class="layout-lg mt-3 mb-6">We will meet in SC 3102 on Thursdays from 5-8PM, starting on September 18th.</p>
 
 <hr />
 
