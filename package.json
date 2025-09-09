@@ -1,0 +1,27 @@
+{
+  "name": "darintuga.github.io",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/newsreader": "^4.5.10",
+    "lucide-svelte": "^0.259.0",
+    "svelte": "^3.58.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-yaml": "^4.0.1",
+    "@rollup/pluginutils": "^5.0.2",
+    "@sveltejs/adapter-static": "^2.0.1",
+    "@types/js-yaml": "^4.0.5",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "svelte-check": "3.2.0",
+    "svelte-preprocess": "^4.10.0",
+    "tailwindcss": "^3.4.17",
+    "vite": "^4.3.9"
+  }
+}
