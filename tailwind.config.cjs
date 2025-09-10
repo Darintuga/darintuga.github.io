@@ -7,8 +7,7 @@ const config = {
 
   content: [
     './src/**/*.{svelte,js,ts}',
-    './src/app.html',          // if you add classes in app.html
-    './static/**/*.html'       // only needed if you have static HTML with classes
+    './static/**/*.html'
   ],
 
   theme: {
