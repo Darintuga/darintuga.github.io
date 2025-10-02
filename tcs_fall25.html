@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading Group on TCS Fall 2025</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff5e6; /* Light orange background */
+            color: #333;
+        }
+        header, footer {
+            background-color: #ff8c00; /* Darker orange */
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        header h1 {
+            margin: 0.5rem 0;
+        }
+        section {
+            background-color: #fff;
+            margin: 1rem auto;
+            padding: 2rem;
+            max-width: 800px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #ff8c00; /* Orange for headings */
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 0.5rem;
+            padding-left: 1rem;
+            text-indent: -1rem;
+        }
+        li:before {
+            content: "– "; /* Unicode en dash */
+            padding-right: 5px;
+            color: #ff8c00; /* Orange for bullet points */
+        }
+        p, li {
+            line-height: 1.6;
+        }
+        img {
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;	    
+            width: 35%;	    
+            height: 35%;
+        }
+
+	.collapsible {
+	    background-color: #777;
+	    color: white;
+	    cursor: pointer;
+	    padding: 18px;
+	    width: 100%;
+	    border: none;
+	    text-align: left;
+	    outline: none;
+	    font-size: 15px;
+	}
+
+	.active, .collapsible:hover {
+	    background-color: #555;
+	}
+
+	.content {
+	    padding: 0 18px;
+	    max-height: 0;
+	    overflow: hidden;
+	    transition: max-height 0.2s ease-out;
+	    background-color: #f1f1f1;
+	}		
+    </style>
+</head>
+<body>
+    <header>
+      <h1>Reading Group on TCS - Fall 2025s</h1>
+      <p><strong>When:</strong> 5:00pm-7:30pm, Thursdays (Fall 2025)</p>
+      <p><strong>Where:</strong> SC 3401, University of Illinois Urbana-Champaign</p>
+      <p><strong>Student Leaders:</strong> <a href="">William Gay</a>, <a href="https://rheaj99.github.io">Rhea Jain</a>, and <a href="https://andreistaicu1.github.io">Andrei Staicu</a></p> 
+      <p><a href="https://granha.github.io"> Fernando Granha Jeronimo </a></p> 
+    </header>
+    <main>
+      <section>
+	<h2> Overview </h2>
+        <p>
+          Welcome to our reading group dedicated to a broad exploration of Theoretical Computer Science (TCS). Students and faculty from any
+	  department (or anywhere) are welcome to join and give talks. For instance, TCS overlaps with Math, ECE, Physics, etc. Please let the organizers
+	  know if you would like to give a talk.
+        </p>
+      </section>
+      <section>
+	<h2> Tentative Format</h2>
+	The format is flexible. For instance, we can have usual ~1 hour talks, or, ideally, more intense (and fun ;)
+	~2-3 hours gatherings depending on the speaker interests. A suggestion for longer talks is the following.
+	<ul>
+	  <li> First Part (~1 hour): general presentation about the work with context, motivation, and overview of technical results possibly with some simpler proofs.</li>
+	  <li> Break (~30 minutes): recharge and socialize. </li>
+	  <li> Second Part (~1 hour + x minutes): present (some of) the technical part and proofs in more detail.</li>
+	  <li> Final Part (~30- x minutes): more questions, free speculations, and socialization.</li> 
+	</ul>
+      </section>
+      <section>
+	<h2> Tentative Schedule </h2>
+        <p>
+	  A tentative schedule with speakers is given below. Please note that this is under construction.
+        </p>
+	 <button class="collapsible"><b>(10/02) Robust Sublinear Expanders and Rainbow Cycles</b> by Bowen Li</button>
+         <div class="content">
+	   <p>An edge-colored graph is said to be rainbow if no color appears more than once. Extremal problems involving rainbow objects have been the focus of much research over the last decade, as they capture the essence of a variety of interesting problems across different areas such as coding theory and additive number theory.  A particularly intensively studied question due to Keevash, Mubayi, Sudakov and Verstraëte from 2007 asks for the maximum possible average degree of a properly edge-coloured graph on n vertices without a rainbow cycle. Recently, Alon, Bucić, Sauermann, Zakharov, and Zamir established an essentially tight bound of (log(n))^{1+o(1)} for the maximum possible average degree when rainbow cycles are forbidden using the technique of robust sublinear expander.</p>
+	   <p>
+	     This talk will give a gentle introduction to robust sublinear expanders and sketch the main ideas behind this result. For pedagogical reasons, we will also present a detailed proof of a weaker result obtained through a similar high-level approach. In addition, we will briefly discuss algorithmic aspects of sublinear expanders. The talk will assume only minimal background in graph theory.    
+	   </p>
+	 </div>
+	 <button class="collapsible"><b>(09/25) How to solve the most important problem in complexity theory (it's not P vs NP)</b> Kabir Tomer</button>
+         <div class="content">
+	   <p>
+	     NP-hard problems are (probably) infeasible in the worst case. However, we do not live in a worst case world, and such problems can still be easy on "most" instances, i.e., virtually all instances that arise in practice. To truly capture "real world" computational infeasibility, we must turn to average case hardness.   Additionally, for computational hardness to be useful for cryptography, average case hardness is not enough; one needs to be able to sample hard instances along with their solutions.	     
+	   </p>
+	   <p>
+	     While there are serious barriers to proving the existence of such hardness, recent breakthroughs in metacomplexity have brought this goal closer than ever before. This talk will give a brief overview of how Kolmogorov complexity offers a path towards bridging the gaps between worst-case hardness, average-case hardness, and cryptographic hardness.	     
+	   </p>
+	 </div>
+	 <button class="collapsible"><b>(09/18) Meta-Complexity: Primer + connections to SAT, Statistical Zero Knowledge (SZK)</b> Harsha Srimath Tirumala</button>
+         <div class="content">
+	   <p>
+	     Kolmogorov Complexity is an important notion of randomness in computability theory. Along with the Minimum Circuit Size problem (MCSP), it constitutes Meta-Complexity theory - the study of complexity of computational problems that are themselves about (some measure of) complexity.	     
+	   </p>
+	   <p>
+	     We will introduce meta-complexity and discuss the complexity of MCSP and a brief history of attempts to characterize Kolmogorov complexity that culminate in a successful characterization of Statistical Zero Knowledge (SZK) and its non-interactive counterpart NISZK. 
+	     (We will assume zero knowledge about these classes or Kolmogorov Complexity)
+	   </p>
+	 </div>
+	 <br><br>
+        <img src="tcs.jpg" alt="">	 
+      </section>            
+    </main>
+</body>
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+	  this.classList.toggle("active");
+	  var content = this.nextElementSibling;
+	  if (content.style.maxHeight){
+	      content.style.maxHeight = null;
+	  } else {
+	      content.style.maxHeight = content.scrollHeight + "px";
+	  } 
+      });
+  }
+</script>    
+</html>
